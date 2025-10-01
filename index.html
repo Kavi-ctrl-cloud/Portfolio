@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="portfolio1.css">
     <title>Portfolio Website</title>
+
+     <style>
+    .page-btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 10px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: white;
+      background-color: #b74b4b;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .page-btn:hover {
+      background-color: #922f2f;
+    }
+  </style>
 </head>
 <body>
     <header>
@@ -17,10 +36,10 @@
    <a href="Projectport.html">Projects</a>
    <a href="#">Contact</a>
 </nav>
-
-        <div class="pro">
-    <a href="Projectport.html">Projects</a>
-  </div>
+    </header>
+     <button class="page-btn" onclick="window.location.href='Projectport.html';">
+    Projects
+  </button>
        <!-- <nav>
             <a href="#" class="active"> Home</a>
             <a href="Projectport.html" >Projects</a>
@@ -29,7 +48,7 @@
             <a href="#" >Experience</a>
             <a href="#" >Contact</a>
         </nav>-->
-    </header>
+    
     <section class="home">
         <div class="home-img">
             <img src="warlock.webp" alt="">
@@ -61,4 +80,5 @@
 </body>
 
 </html>
+
 
