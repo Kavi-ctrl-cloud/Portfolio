@@ -97,6 +97,18 @@ nav a.active{
     }
 }
 
+.menu-btn {
+  display: none;
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media(max-width:995px){
+  .menu-btn {
+    display: block;
+  }
+}
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
@@ -267,3 +279,4 @@ span{
         margin-top: 4rem;
     }
 }
+
