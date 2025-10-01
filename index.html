@@ -11,15 +11,21 @@
 <body>
     <header>
         <a href="#" class="logo">Kaviyarasu J</a>
-
         <nav>
+<div class="menu-btn">&#9776;</div> <!-- hamburger icon -->
+   <a href="#" class="active">Home</a>
+   <a href="Projectport.html">Projects</a>
+   <a href="#">Contact</a>
+</nav>
+
+       <!-- <nav>
             <a href="#" class="active"> Home</a>
             <a href="Projectport.html" >Projects</a>
             <a href="#" >Skills</a>
             <a href="#" >Education</a>
             <a href="#" >Experience</a>
             <a href="#" >Contact</a>
-        </nav>
+        </nav>-->
     </header>
     <section class="home">
         <div class="home-img">
@@ -38,5 +44,17 @@
             <!--<a href="#" class="btn">Hire me</a>-->
         </div>
     </section>
+
+    <script>
+  // Select the menu button and nav
+  const menuBtn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('nav');
+
+  // Toggle the nav when menu button is clicked
+  menuBtn.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
 </body>
+
 </html>
